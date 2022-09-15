@@ -2,7 +2,7 @@ Por padrão o privilégio para excutar scripts é o Restricted, ou seja, nenhum 
 
 Para alterar a politica de execução use o cmdlet e algum dos seguinte
 ```
-Set-ExecutionPolicy AllSigned 
+Set-ExecutionPolicy Unrestricted 
 ```
 *Restricted*: É valor padrão (Windows 8, Windows Server 2012, and Windows 8.1) , não permite que nenhum arquivo seja executado isso inclui arquivos de configuração (.ps1xml), módulos (.psm1) e .ps1
 
