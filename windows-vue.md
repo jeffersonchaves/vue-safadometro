@@ -14,9 +14,4 @@ Set-ExecutionPolicy Unrestricted
 
 *Undefined*: Define a politica de execução indefinida. Se todos os escopos forem Undefined por padrão ela vira Restricted. Pode verificar os diferentes níveis com:
 
-Get-ExecutionPolicy -list
-Leitura recomendada:
-
-Set-ExecutionPolicy
-
-About Execution Policies
+*Para alterar essas políticas, é necessário abrir o cmd ou powershell com privilégios de administrador.*
